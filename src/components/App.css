@@ -1,0 +1,59 @@
+/* Default app styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* app section wrapper */
+.app-section-wrapper {}
+
+/* General app media queries */
+@media screen and (max-width: 320px) {
+
+    /* app section wrapper */
+    .app-section-wrapper {
+        padding: 0 .5em;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+
+    /* app section wrapper */
+    .app-section-wrapper {
+        padding: 0 1em;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    /* app section wrapper */
+    .app-section-wrapper {
+        padding: 0 1.5em;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* app section wrapper */
+    .app-section-wrapper {
+        padding: 0 2em;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+    /* app section wrapper */
+    .app-section-wrapper {
+        padding: 0 2.5em;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+
+    /* app section wrapper */
+    .app-section-wrapper {
+        padding: 0 3em;
+    }
+}

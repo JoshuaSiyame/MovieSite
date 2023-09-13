@@ -1,0 +1,317 @@
+/* Top navigation general styles */
+/* app navigation */
+#app-navigation {
+    background-color: rgba(14, 17, 17, .9);
+}
+
+/* nav container */
+#nav-container {
+    padding: 1.5em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* logo */
+.logo {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* nav items container */
+#nav-items-container {
+    display: flex;
+    align-items: center;
+}
+
+/* top nav search box */
+#top-nav-search-box {}
+
+/* search box 1 */
+#search-box-1 {}
+
+/* search box 1 group */
+.s-b-1-g {}
+
+/* search box 1 form control */
+.s-b-1-f-c {
+    padding: .4em .5em;
+    width: 300px;
+    border: 0px;
+    border-radius: 2px;
+}
+
+/* nav icons */
+.nav-icon {
+    color: whitesmoke;
+    display: none;
+    font-size: 24px;
+}
+
+/* hamburger icon */
+#hamburger-icon {}
+
+/* close icon */
+#close-icon {}
+
+/* Media queries */
+@media screen and (max-width: 320px) {
+
+    /* app navigation */
+    #app-navigation {}
+
+    /* nav container */
+    #nav-container {}
+
+    /* logo */
+    .logo {
+        font-size: 18px;
+    }
+
+    /* nav items container */
+    #nav-items-container {}
+
+    /* top nav search box */
+    #top-nav-search-box {
+        display: none;
+    }
+
+    /* search box 1 */
+    #search-box-1 {}
+
+    /* search box 1 group */
+    .s-b-1-g {}
+
+    /* search box 1 form control */
+    .s-b-1-f-c {
+
+    }
+
+    /* nav icons */
+    .nav-icon {
+        color: whitesmoke;
+    }
+
+    /* hamburger icon */
+    #hamburger-icon {
+        display: block;
+    }
+
+    /* close icon */
+    #close-icon {
+        display: block;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+
+    /* app navigation */
+    #app-navigation {}
+
+    /* nav container */
+    #nav-container {}
+
+    /* logo */
+    .logo {
+        font-size: 19px;
+    }
+
+    /* nav items container */
+    #nav-items-container {}
+
+    /* top nav search box */
+    #top-nav-search-box {
+        display: none;
+    }
+
+    /* search box 1 */
+    #search-box-1 {}
+
+    /* search box 1 group */
+    .s-b-1-g {}
+
+    /* search box 1 form control */
+    .s-b-1-f-c {}
+
+    /* nav icons */
+    .nav-icon {
+        color: whitesmoke;
+    }
+
+    /* hamburger icon */
+    #hamburger-icon {
+        display: block;
+    }
+
+    /* close icon */
+    #close-icon {
+        display: block;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    /* app navigation */
+    #app-navigation {}
+
+    /* nav container */
+    #nav-container {}
+
+    /* logo */
+    .logo {
+        font-size: 19.5px;
+    }
+
+    /* nav items container */
+    #nav-items-container {}
+
+    /* top nav search box */
+    #top-nav-search-box {
+        display: none;
+    }
+
+    /* search box 1 */
+    #search-box-1 {}
+
+    /* search box 1 group */
+    .s-b-1-g {}
+
+    /* search box 1 form control */
+    .s-b-1-f-c {}
+
+    /* nav icons */
+    .nav-icon {
+        color: whitesmoke;
+    }
+
+    /* hamburger icon */
+    #hamburger-icon {
+        display: block;
+    }
+
+    /* close icon */
+    #close-icon {
+        display: block;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* app navigation */
+    #app-navigation {}
+
+    /* nav container */
+    #nav-container {}
+
+    /* logo */
+    .logo {
+        font-size: 20px;
+    }
+
+    /* nav items container */
+    #nav-items-container {}
+
+    /* top nav search box */
+    #top-nav-search-box {}
+
+    /* search box 1 */
+    #search-box-1 {}
+
+    /* search box 1 group */
+    .s-b-1-g {}
+
+    /* search box 1 form control */
+    .s-b-1-f-c {}
+
+    /* nav icons */
+    .nav-icon {
+        color: whitesmoke;
+    }
+
+    /* hamburger icon */
+    #hamburger-icon {}
+
+    /* close icon */
+    #close-icon {}
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+    /* app navigation */
+    #app-navigation {}
+
+    /* nav container */
+    #nav-container {}
+
+    /* logo */
+    .logo {
+        font-size: 20.5px;
+    }
+
+    /* nav items container */
+    #nav-items-container {}
+
+    /* top nav search box */
+    #top-nav-search-box {}
+
+    /* search box 1 */
+    #search-box-1 {}
+
+    /* search box 1 group */
+    .s-b-1-g {}
+
+    /* search box 1 form control */
+    .s-b-1-f-c {}
+
+    /* nav icons */
+    .nav-icon {
+        color: whitesmoke;
+    }
+
+    /* hamburger icon */
+    #hamburger-icon {}
+
+    /* close icon */
+    #close-icon {}
+}
+
+@media screen and (min-width: 1201px) {
+
+    /* app navigation */
+    #app-navigation {}
+
+    /* nav container */
+    #nav-container {}
+
+    /* logo */
+    .logo {
+        font-size: 22px;
+    }
+
+    /* nav items container */
+    #nav-items-container {}
+
+    /* top nav search box */
+    #top-nav-search-box {}
+
+    /* search box 1 */
+    #search-box-1 {}
+
+    /* search box 1 group */
+    .s-b-1-g {}
+
+    /* search box 1 form control */
+    .s-b-1-f-c {}
+
+    /* nav icons */
+    .nav-icon {
+        color: whitesmoke;
+    }
+
+    /* hamburger icon */
+    #hamburger-icon {}
+
+    /* close icon */
+    #close-icon {}
+}
