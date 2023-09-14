@@ -6,9 +6,24 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* app structure */
+#app-structure{}
+
 /* app section wrapper */
 .app-section-wrapper {}
 
+/* body container */
+#body-container{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+/* main container */
+#main-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 /* General app media queries */
 @media screen and (max-width: 320px) {
 

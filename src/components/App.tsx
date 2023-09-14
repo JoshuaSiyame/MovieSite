@@ -2,22 +2,30 @@
 import React from "react";
 import { BrowserRouter, Router, Route } from "react-router-dom";
 import "./App.css";
-import Navigation from "./Utils/TopNavigation/TopNavigation";
 
+// import components
+import Footer from "./Utils/Footer/Footer";
+import Navigation from "./Utils/TopNavigation/TopNavigation";
+import AsideNavigation from "./Utils/AsideNavigation/AsideNavigation";
+import Movies from "./Movies/Movies";
+import MainBodyNav from "./Utils/MainBodyNav/MainBodyNav";
 // App component
 const App = () => {
     return (
         <BrowserRouter>
-            <div id="app" className="">
+            <div id="app-structure" className="">
                 <Navigation />
-                <div id="body-container">
-                    <div id="aside-nav"></div>
-                    <div id="main-container">
-                        {/* <Router>
-                            <Route></Route>
-                        </Router> */}
+                <div id="body-container" className="">
+                    <div id="aside-nav">
+                        <AsideNavigation />
+                    </div>
+                    <div id="main-container" className="app-section-">
+                        <MainBodyNav />
+                        <Movies />
+                        <Footer />
                     </div>
                 </div>
+                
             </div>
         </BrowserRouter>
     );
