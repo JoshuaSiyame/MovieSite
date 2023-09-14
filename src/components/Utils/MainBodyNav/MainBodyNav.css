@@ -1,0 +1,29 @@
+/* main body nav general styles */
+/* main body nav */
+#main-body-nav{
+    background-color: #2D403F;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* main body nav list */
+#main-body-nav-list{
+    display: flex;
+    gap: .5em;
+}
+
+/* main body nav list */
+.m-b-n-l-i{
+    list-style: none;
+}
+
+/* main body nav list link */
+.m-b-n-l-i-l{
+    text-decoration: none;
+    color: #2D403F;
+    background-color: whitesmoke;
+    padding: .4em .5em;
+    border: 0;
+    border-radius: 3px;
+}

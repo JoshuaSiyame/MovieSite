@@ -1,0 +1,25 @@
+/* Footer general styles */
+/* app footer */
+#app-footer{
+    background-color: rgba(6, 13, 15, .85);
+    margin-top: auto;
+    padding: 2em 0;
+}
+
+/* footer content */
+#footer-content{}
+
+/* footer list */
+#footer-list{
+    display: flex;
+    justify-content: center;
+    column-gap: 1em;
+}
+
+/* footer-list-item */
+.footer-list-item{
+    list-style: none;
+    font-style: italic;
+    font-size: 14px;
+    color: rgba(245, 245, 245, .85);
+}
